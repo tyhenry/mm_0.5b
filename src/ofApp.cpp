@@ -382,11 +382,11 @@ void ofApp::setupMenus() {
 
 	Menu rackMenu = Menu("rack", HOVER_WAIT);
 	// left
-	rackMenu.addButton(ofImage("style_btn.png"), "style", vCrop.getLeft() + 10, 150, 125, 125);
-	rackMenu.addButton(ofImage("shape_btn.png"), "shape", vCrop.getLeft() + 10, 300, 125, 125);
-	rackMenu.addButton(ofImage("selfie_btn.png"), "selfie", vCrop.getLeft() + 10, 500, 125, 125);
+	rackMenu.addButton(ofImage("style_btn_flip.png"), "style", vCrop.getLeft() + 10, 150, 125, 125, ofImage("style_btn_flip_hover.png"));
+	rackMenu.addButton(ofImage("shape_btn_flip.png"), "shape", vCrop.getLeft() + 10, 300, 125, 125, ofImage("shape_btn_flip_hover.png"));
+	rackMenu.addButton(ofImage("selfie_btn.png"), "selfie", vCrop.getLeft() + 10, 500, 125, 125, ofImage("selfie_btn_hover.png"));
 	// right
-	rackMenu.addButton(ofImage("up_btn.png"), "pageUp", vCrop.getRight() - 100, 150, 100, 100);
+	rackMenu.addButton(ofImage("up_btn.png"), "pageUp", vCrop.getRight() - 100, 150, 100, 100, ofImage("up_btn_hover.png"));
 	vector<ofImage> items;
 	vector<string> names;
 	for (int i = 0; i < 6; i++) {
@@ -395,13 +395,13 @@ void ofApp::setupMenus() {
 		names.push_back(imgPath);
 	}
 	rackMenu.addCarousel("styleSelect", items, names, vCrop.getRight() - 90, 260, 80, 80, 3, 7);
-	rackMenu.addButton(ofImage("down_btn.png"), "pageDown", vCrop.getRight() - 100, 525, 100, 100);
+	rackMenu.addButton(ofImage("down_btn.png"), "pageDown", vCrop.getRight() - 100, 525, 100, 100, ofImage("down_btn_hover.png"));
 	menus.addMenu(rackMenu);
 
 	// 2 - selfie menu
 
 	Menu selfieMenu = Menu("selfie", HOVER_WAIT);
-	selfieMenu.addButton(ofImage("back_btn.png"), "back", vCrop.getRight() - 100, 525, 100, 100);
+	selfieMenu.addButton(ofImage("back_btn.png"), "back", vCrop.getRight() - 100, 525, 100, 100, ofImage("back_btn_hover.png"));
 	menus.addMenu(selfieMenu);
 
 }
