@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinect2User\src\Kinect.cpp">
+			<Filter>addons\ofxKinect2User\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinect2User\src\User.cpp">
+			<Filter>addons\ofxKinect2User\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data\Body.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data\Joint.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Device.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BaseImage.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Body.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BodyIndex.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Color.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Depth.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Infrared.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\LongExposureInfraRed.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Utils.cpp">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMenuSystem\src\Menu.cpp">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMenuSystem\src\MenuSystem.cpp">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxQuad\src\ofxQuad.cpp">
+			<Filter>addons\ofxQuad\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxVertScreen\src\VertScreen.cpp">
+			<Filter>addons\ofxVertScreen\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui">
+			<UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui\src">
+			<UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinect2User">
+			<UniqueIdentifier>{F787A930-B019-017D-7EAA-535C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinect2User\src">
+			<UniqueIdentifier>{E95354F0-4715-B05B-51E9-4722}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectForWindows2">
+			<UniqueIdentifier>{79EE9CEE-5877-E1B3-C373-D5C8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectForWindows2\src">
+			<UniqueIdentifier>{BBA641E3-A9C6-8646-2A06-7A9D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectForWindows2\src\ofxKinectForWindows2">
+			<UniqueIdentifier>{849A6419-451E-EB51-E82D-5D04}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data">
+			<UniqueIdentifier>{D3FA8E7E-7250-B64E-BCC8-522E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source">
+			<UniqueIdentifier>{D8ABF3AE-C83C-4B28-80F0-8B6D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMenuSystem">
+			<UniqueIdentifier>{F3240C3E-4C5D-2359-3EC6-BB52}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMenuSystem\src">
+			<UniqueIdentifier>{5C5A00C9-6AD8-2AC6-64F0-7828}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxQuad">
+			<UniqueIdentifier>{FC23B6CA-FC4E-31C6-6B7C-3D3B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxQuad\src">
+			<UniqueIdentifier>{1F064693-017C-B35E-687E-1EF9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVertScreen">
+			<UniqueIdentifier>{4D973F31-3DD5-F2A7-2D48-E23D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVertScreen\src">
+			<UniqueIdentifier>{A5B05EDB-AB6C-A469-776D-20C1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings">
+			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\src">
+			<UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\libs">
+			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinect2User\src\Kinect.h">
+			<Filter>addons\ofxKinect2User\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinect2User\src\User.h">
+			<Filter>addons\ofxKinect2User\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data\Body.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data\Joint.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Data</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Device.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Base.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BaseImage.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Body.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\BodyIndex.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Color.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Depth.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\Infrared.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source\LongExposureInfrared.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2\Utils.h">
+			<Filter>addons\ofxKinectForWindows2\src\ofxKinectForWindows2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectForWindows2\src\ofxKinectForWindows2.h">
+			<Filter>addons\ofxKinectForWindows2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMenuSystem\src\Button.h">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMenuSystem\src\Carousel.h">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMenuSystem\src\Menu.h">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMenuSystem\src\MenuSystem.h">
+			<Filter>addons\ofxMenuSystem\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxQuad\src\ofxQuad.h">
+			<Filter>addons\ofxQuad\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxVertScreen\src\VertScreen.h">
+			<Filter>addons\ofxVertScreen\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

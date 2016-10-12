@@ -1,0 +1,34 @@
+<group>
+	<draw_settings>
+		<vert_screen>0</vert_screen>
+		<camera>0</camera>
+		<draw__t_arget>0</draw__t_arget>
+		<draw_color__i_mg>0</draw_color__i_mg>
+		<draw__u_ser_skeleton>1</draw__u_ser_skeleton>
+		<draw_user__m_esh>1</draw_user__m_esh>
+		<max_mesh_depth>0.02</max_mesh_depth>
+		<draw_shirt>1</draw_shirt>
+	<move_menus>1</move_menus>
+		<menu_y_offset>-404.082</menu_y_offset>
+		<menu_min_y>-209.526</menu_min_y>
+		<menu_max_y>220.27</menu_max_y>
+		<ease_hands>1</ease_hands>
+	<hand_ease_amt>0.668367</hand_ease_amt>
+	<motion_ease>0.494898</motion_ease>
+	<shirt_expand>1.77551</shirt_expand>
+	<mesh_alpha>1</mesh_alpha>
+		<draw_head_box>0</draw_head_box>
+	</draw_settings>
+	<cam_settings>
+		<_f_lip_x>1</_f_lip_x>
+		<translate_world>0, 0, 0</translate_world>
+		<scale_world>500</scale_world>
+		<mirror_cam_long>0</mirror_cam_long>
+		<mirror_cam_lat>-27.551</mirror_cam_lat>
+		<mirror_cam_rad>-112.245</mirror_cam_rad>
+		<mirror_cam_offset>0, 0.18784</mirror_cam_offset>
+	<use_sample_cams>1</use_sample_cams>
+		<cam_move_easing>0.102041</cam_move_easing>
+	</cam_settings>
+<group/>
+</group>

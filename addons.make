@@ -1,0 +1,7 @@
+ofxGui
+ofxKinect2User
+ofxKinectForWindows2
+ofxMenuSystem
+ofxQuad
+ofxVertScreen
+ofxXmlSettings
